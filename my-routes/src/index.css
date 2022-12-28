@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.card {
+  width: 18rem;
+  margin: 5px auto;
+  border: 1px solid cyan;
+  position: relative;
+
+ 
+}
+.card img{
+  height: 200px;
+}
+.card-box {margin: 30px;
+  padding: 30px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.album-container {
+  display: flex;
+ 
+  align-items: center;
+  justify-content: center;
+  gap:8px;
+  padding: 50px;
+}
+.album-container img {
+  max-width:100%;
+  margin: 8px;
+}
+
+nav.navbar {
+  padding: 30px;
+  
+  
+}
+nav.navbar li  {
+  font-weight: bold;
+  
+
+}
+.badge {
+  position: absolute;
+  padding: 8px;
+  
+}
+.carousel {
+  width: 1000px !important;
+  margin: 40px auto;
+  position: absolute;
+}
+.videobg {
+  position: absolute;
+  top:100px ;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  width: 100%;;
+}
+.list-group a:link , .list-group a:visited {
+  color: black;
+}
